@@ -9,3 +9,9 @@ date -u
 echo "Days since year began $(date +%j)"
 
 users
+
+uptime
+
+hostname
+
+echo "The hostname like above is $HOSTNAME"
