@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
-function getInfo
-{
+function getInfo {
+
+    dvdr="------------------------------------------------------------"
+
     date
 
     date -u
@@ -9,6 +11,10 @@ function getInfo
     echo "Days since year began $(date +%j)"
 
     users
+    echo ${dvdr}
+    who
+    echo ${dvdr}
+    w
 
     uptime
 
