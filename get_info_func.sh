@@ -16,7 +16,7 @@ function getInfo
 
     echo "The hostname like above is $HOSTNAME"
 
-    # Note the varibale outside the quotes works too
+    # Note the variable outside the quotes works too
     echo "THe current directory is:" $PWD
 }
 
